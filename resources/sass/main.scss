@@ -1,0 +1,150 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    
+
+}
+
+a { 
+    text-decoration:none;
+    color:#000;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.position-ref {
+    position: relative;
+    
+}
+
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+    
+    
+}
+
+
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+/* footer{
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background-color: #eee;
+    
+} */
+
+footer {
+    position: fixed;
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background-color: #eee;
+  }
+
+.title {
+    font-size: 84px;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding: 12px 0;
+    color: #5e2195;
+}
+
+
+
+#bb2 {
+    margin-top: 30px;
+    margin-right: 5px;
+    width:780px;
+    float: left;;
+    text-align:left;
+    font-size:14px;
+    color:#000;
+    font-weight:bold;
+    overflow: auto;
+    
+}
+
+
+pre {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999*/
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    color:#636b6f;
+    overflow:hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6; 
+    -webkit-box-orient: vertical;
+    white-space: normal;
+   }
+
+#infobb2 {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999*/
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    color:#636b6f;
+    overflow:hidden; 
+   }
+
+#sliderbar {
+    margin-top: 30px;
+    width:200px;
+    height:35px;
+    text-align:center;
+    font-size:18px;
+    color:#fff;
+    font-weight:bold;
+    background-color:#00bfff;
+    float:right;
+}
+
+#sliderbar1 {
+    width:200px;
+    text-align:left;
+    font-size:18px;
+    color:#000;
+    font-weight:bold;
+    float:right;
+    
+}
